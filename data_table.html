@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Health Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header h1 {
+            text-align: center;
+            color: #291f77;
+            font-size: 40px;
+        }
+        table {
+            max-width: 50%;
+            border-collapse: collapse;
+            table-layout: auto;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 4px 6px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Health Data</h1>
+</header>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Student_ID</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Heart_Rate</th>
+                <th>Blood_Pressure_Systolic</th>
+                <th>Blood_Pressure_Diastolic</th>
+                <th>Stress_Level_Biosensor</th>
+                <th>Stress_Level_Self_Report</th>
+                <th>Physical_Activity</th>
+                <th>Sleep_Quality</th>
+                <th>Mood</th>
+                <th>Study_Hours</th>
+                <th>Project_Hours</th>
+                <th>Health_Risk_Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+            <tr>
+                {% for data in student %}
+                <td>{{ data }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
