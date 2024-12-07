@@ -7,8 +7,10 @@
 6. [Running the project_flask Application](#running-the-project_flask-application)
 7. [Project/Code Structure](#projectcode-structure)
 8. [App Routes](#app-routes)
-9. [License](#license)
-10. [References](#references)
+9. [Contributing](#contributing)
+10. [Authors and Contributors](#authors-&-contributors)
+12. [License](#license)
+13. [References](#references)
 ## Project Name
 - **Project_flask.py**
 ## Project Description
@@ -65,6 +67,11 @@
 2. `/about`: Displays the about page.
 3. `/data`: Connects to the SQLite database, retrieves student health data, and displays it in a table.
 4. `/group_info`: Displays the names of the group 10 members
+## Contributing
+All 4 members of group 10 contributed imensely to make this project a success, kudos to a good job done.
+We also want to thank our lecturer, Professor Simranjeet, for the knowledge she impacted on us, that has enabled us to successfully develop this project. We appreciate all your kind assistance. 
+## Authors & contributors
+The list of all 4 members of Group 10 who contributed to the project is detailed in the group_info page.
 ## License
 The `flask_project` is the final group project for the Introduction to Python Programming (DAB 111) course under the St. Clair Data Analytics for Business Program.
 ## References
