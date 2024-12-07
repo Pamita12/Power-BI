@@ -12,20 +12,20 @@
 9. [License](#license)
 10. [References](#references)
     
-# 1. Project Name
+## 1. Project Name
 - **Project_flask.py**
   
-# 2. Project Description
+## 2. Project Description
 - The `project_flask.py` application allows users to view student health data stored in an SQLite database, `student_health_data.db`. The app provides a simple interface to navigate between the project information, about page, and the data table.
 - The data was sourced from Kaggle: [Student-Health-Data](https://www.kaggle.com/datasets/ziya07/student-health-data).
   
-# 3. Prerequisites and Packages/Libraries
+## 3. Prerequisites and Packages/Libraries
 - Python 3.12.7
 - Flask and `render_template` from flask
 - SQLite3
 - Pathlib
   
-# 4. Getting Started
+## 4. Getting Started
 - Develop Python codes:
   - SQL Database and Table using `sqlite3`
   - `project_flask` website
@@ -35,7 +35,7 @@
   - Data page
   - Group Information
     
-# 5. Installation and Configuration Instructions
+## 5. Installation and Configuration Instructions
 - Use the virtual environment (myspace) created in Visual Studio Code.
 - Install and import the required packages:
   - `pip install flask` and import `Flask`, `render_template`
@@ -46,7 +46,7 @@
   - Path to call the database `student_health_data.db`
   - `app.run` to run the code
     
-# 6. Running the project_flask Application
+## 6. Running the project_flask Application
     1. Start the `project_flask` app by executing the code for the application:
       ```bash
       # Serving Flask app 'project_flask'
@@ -62,7 +62,7 @@
       - Open a web browser and go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
       - This opens the `project_flask` website
       
-# 7. Project/Code Structure
+## 7. Project/Code Structure
     1. `project_flask.py`: The main Flask application file.
     2. `templates/`: Directory containing HTML files.
        - `homepage.html`: The project information page.
@@ -70,16 +70,16 @@
        - `data_table.html`: The page displaying the sample of 100 observations in the student health data.
        - `group_info.html`: Names and IDs of group 10 members
      
-# 8. App Routes
+## 8. App Routes
     1. `/`: Displays the project information page.
     2. `/about`: Displays the about page.
     3. `/data`: Connects to the SQLite database, retrieves student health data, and displays it in a table.
     4. `/group_info`: Displays the names of the group 10 members
    
-# 9. License
+## 9. License
 The `flask_project` is the final group project for the Introduction to Python Programming (DAB 111) course under the St. Clair Data Analytics for Business Program.
 
-# 10. References
+## 10. References
   - Flask documentation: [Flask Docs](https://flask.palletsprojects.com/)
   - SQLite documentation: [SQLite Docs](https://www.sqlite.org/docs.html)
   - HTML documentation: [HTML Docs](https://www.w3schools.com/html/)
