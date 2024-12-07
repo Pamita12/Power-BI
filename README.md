@@ -13,6 +13,7 @@
 10. [Authors and Contributors](#authors-&-contributors)
 12. [License](#license)
 13. [References](#references)
+14. [Additional Information](#additional-information)
 ## Project Name
 - **Project_flask.py**
 ## Project Description
@@ -83,6 +84,9 @@ The `flask_project` is the final group project for the Introduction to Python Pr
 - Dataset Source: [Kaggle - Student Health Data](https://www.kaggle.com/datasets/ziya07/student-health-data)
 - Lecture notes
 
+
+  
+## Additional Information:
 - The requirements document for the project_flask (Student Health Data) Flask Application. This document provides the key points to ensure project_flask runs smoothly
 
 
